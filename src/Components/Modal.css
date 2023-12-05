@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 .modal-layer{
-    width: 20vw;
-    height: 18vh;
+    max-width: 300px;
+    min-width: 200px;
+    height: 110px;
     padding: 1%;
     border: 1px solid gray;
     border-radius: 5px;
@@ -11,6 +12,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
 }
 
 .modal-title{
